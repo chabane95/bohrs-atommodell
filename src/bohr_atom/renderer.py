@@ -240,7 +240,7 @@ class BohrRenderer:
                 (0.72, 0.48, 0.12, opacity * (0.78 if level == state.n else 0.26)),
             )
         proton, electron = self._atom(
-            state, seconds, time_scale, length_scale, center, bead_scale=0.64, draw_ring=False
+            state, seconds, time_scale, length_scale, center, bead_scale=0.23, draw_ring=False
         )
         self._labels(proton, electron, False)
 
