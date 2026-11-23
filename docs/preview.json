@@ -1,0 +1,44 @@
+{
+  "render_settings": {
+    "width": 1920,
+    "height": 1080,
+    "labels": true,
+    "finite_mass": true
+  },
+  "renderer": "NVIDIA GeForce RTX 4070 SUPER/PCIe/SSE2",
+  "scene_metadata": {
+    "model": "Historical Bohr hydrogen model; stationary circular states are postulates.",
+    "scene": "orbit",
+    "actual_n": 1,
+    "screen_points": {
+      "p": [
+        2006.5242121310985,
+        983.012227201505
+      ],
+      "e": [
+        1724.3249050508364,
+        593.1058831854889
+      ],
+      "r_mid": [
+        1815.1525308741775,
+        803.6553089541375
+      ]
+    },
+    "azimuth_degrees": 36.0,
+    "elevation_degrees": 25.0,
+    "particle_sizes": "Schematic. Orbital radii and clocks calculated from physics.py.",
+    "display_length_scale_m": 6.016652380234015e-11,
+    "time_scale_s_per_video_s": 1.9008219640800297e-17
+  },
+  "export": {
+    "kind": "still",
+    "scene": "orbit",
+    "n": 1,
+    "seconds": 6.0,
+    "duration_seconds": 36.0,
+    "width": 1920,
+    "height": 1080,
+    "supersample": 2,
+    "requested_n": 1
+  }
+}
